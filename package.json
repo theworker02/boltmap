@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boltmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bolt lightweight map statistics from stdin samples.",
+  "bin": {
+    "boltmap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boltmap.git"
+  },
+  "homepage": "https://theworker02.github.io/boltmap/",
+  "keywords": [
+    "bolt",
+    "map",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
